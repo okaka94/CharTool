@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{d1cca89d-eb2d-4bb5-9c8e-cdbcb22ca757}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS">
+      <UniqueIdentifier>{38a62c61-8888-4914-8c0f-5689ae6765d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\World">
+      <UniqueIdentifier>{ef336fb3-baf1-4b7b-a96f-07379abff300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\System">
+      <UniqueIdentifier>{504d9f3b-a9bc-4bc6-b87b-7d4efda4ba61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Component">
+      <UniqueIdentifier>{62bb0c5e-b0a4-4638-97a1-74209454aced}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Entity">
+      <UniqueIdentifier>{2732ae40-84ce-4ae1-8e7c-bdf396065ba7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX">
+      <UniqueIdentifier>{3f044159-f34a-4573-8099-0f714e734862}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{17a7857e-a55e-4a7e-9810-01b11c5ce842}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\HLSL">
+      <UniqueIdentifier>{30681bf9-b1fb-4af3-a1ba-823584832c52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{1187b91f-3211-4308-873d-a1c4e37ce8d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\HLSL\VertexShader">
+      <UniqueIdentifier>{c151e782-b5a1-4003-be17-db1273094eb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\HLSL\PixelShader">
+      <UniqueIdentifier>{ab7c5494-e8fb-4318-b305-1a46f0ba0bc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\Data">
+      <UniqueIdentifier>{d0dcee0d-974c-4617-b439-9332bb54a732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WinAPI">
+      <UniqueIdentifier>{39ce7d6d-82a9-4293-b4c0-5b68c90bc392}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WinAPI\소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="WinAPI\헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Sound\소스 파일">
+      <UniqueIdentifier>{72a9d2a1-ca14-493b-8d4a-104df781d1bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound\헤더 파일">
+      <UniqueIdentifier>{b573637d-ba06-4f27-9615-e845731df0c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\Data\ConstantData">
+      <UniqueIdentifier>{ea089d5d-1393-4e44-9abe-5eca912bba13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\Data\InputData">
+      <UniqueIdentifier>{e2d39618-6559-41b8-81db-ebe80edaff3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\HLSL\GeometryShader">
+      <UniqueIdentifier>{5ec82df0-2f9f-4725-86c3-069a8dcfdf6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\TinyXML">
+      <UniqueIdentifier>{aec06b93-039d-4f7b-b15f-788536e8a5a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Component\Mesh">
+      <UniqueIdentifier>{31575f86-37ec-4d94-8878-1e33afd5a87e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Component\Shape">
+      <UniqueIdentifier>{15a5efa3-b3f2-414c-8ccf-e28d5e4207dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Component\Camera">
+      <UniqueIdentifier>{a7a38c08-0dbd-4dea-af26-a3ec381cf23d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Entity\Actor">
+      <UniqueIdentifier>{6db30c49-69b0-4147-bdcb-8fbff24087aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Component\Base">
+      <UniqueIdentifier>{f7187a9c-6cf4-4a0b-a382-d0f362b2a0d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Entity\Base">
+      <UniqueIdentifier>{ffc894ba-b50c-4e95-84a0-48b278db45d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Component\Light">
+      <UniqueIdentifier>{4c2d8933-bb7c-4d70-bafd-8a075344d687}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\System\Base">
+      <UniqueIdentifier>{c986aa9c-35ef-4d23-8117-2d01a3d1b8bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Entity\Actor\NewFilter1">
+      <UniqueIdentifier>{07f73bc7-4bc5-4940-97f8-1d0f8cc283ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\World\Base">
+      <UniqueIdentifier>{0fc7ad3a-5eb8-464f-8c32-f888795455c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\HLSL\ComputeShader">
+      <UniqueIdentifier>{f09f9d70-060a-4261-959e-260c944d6c72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Event">
+      <UniqueIdentifier>{6e8fecef-e1d7-46fe-9294-ed8a31d15230}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ECS\Event\Base">
+      <UniqueIdentifier>{5913622c-92e0-4bb7-b25e-7c911d962776}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Define.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsClient.h">
+      <Filter>WinAPI\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ECSCommon.hpp">
+      <Filter>ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.hpp">
+      <Filter>WinAPI\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="LandscapeComponent.h">
+      <Filter>ECS\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementComponent.h">
+      <Filter>ECS\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem.h">
+      <Filter>ECS\System</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementSystem.h">
+      <Filter>ECS\System</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformComponent.h">
+      <Filter>ECS\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="DXDevice.hpp">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTexture.hpp">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTextureManager.hpp">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCore.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.hpp">
+      <Filter>WinAPI\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DXShaderManager.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraSystem.h">
+      <Filter>ECS\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>DirectX\Data\InputData</Filter>
+    </ClInclude>
+    <ClInclude Include="DXRenderTarget.hpp">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="DXSamplerState.hpp">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="FMODSound.hpp">
+      <Filter>Sound\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="FMODSoundManager.hpp">
+      <Filter>Sound\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="IWData.h">
+      <Filter>DirectX\Data\InputData</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraMatrix.h">
+      <Filter>DirectX\Data\ConstantData</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformMatrix.h">
+      <Filter>DirectX\Data\ConstantData</Filter>
+    </ClInclude>
+    <ClInclude Include="LightData.h">
+      <Filter>DirectX\Data\ConstantData</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformSystem.h">
+      <Filter>ECS\System</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugCameraSystem.h">
+      <Filter>ECS\System</Filter>
+    </ClInclude>
+    <ClInclude Include="BindPoseAnimationData.h">
+      <Filter>DirectX\Data\ConstantData</Filter>
+    </ClInclude>
+    <ClInclude Include="LightSystem.h">
+      <Filter>ECS\System</Filter>
+    </ClInclude>
+    <ClInclude Include="SculptingData.h">
+      <Filter>DirectX\Data\ConstantData</Filter>
+    </ClInclude>
+    <ClInclude Include="tinystr.h">
+      <Filter>Common\TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml.h">
+      <Filter>Common\TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>ECS\Component\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugCamera.h">
+      <Filter>ECS\Component\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeComponent.h">
+      <Filter>ECS\Component\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshComponent.hpp">
+      <Filter>ECS\Component\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="SkeletalMeshComponent.h">
+      <Filter>ECS\Component\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticMeshComponent.h">
+      <Filter>ECS\Component\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>ECS\Entity\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.hpp">
+      <Filter>ECS\Component\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>ECS\Component\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.hpp">
+      <Filter>ECS\Entity\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionalLight.h">
+      <Filter>ECS\Entity\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>ECS\Entity\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLight.h">
+      <Filter>ECS\Entity\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="SpotLight.h">
+      <Filter>ECS\Entity\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="LightComponent.h">
+      <Filter>ECS\Component\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="System.hpp">
+      <Filter>ECS\System\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Landscape.h">
+      <Filter>ECS\Entity\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="World.hpp">
+      <Filter>ECS\World\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWorld.hpp">
+      <Filter>ECS\World</Filter>
+    </ClInclude>
+    <ClInclude Include="SplattingData.h">
+      <Filter>DirectX\Data\ConstantData</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaneComponent.h">
+      <Filter>ECS\Component\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSubscriber.hpp">
+      <Filter>ECS\Event\Base</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WindowsClient.cpp">
+      <Filter>WinAPI\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>WinAPI\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DXDevice.cpp">
+      <Filter>DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTexture.cpp">
+      <Filter>DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTextureManager.cpp">
+      <Filter>DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCore.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>WinAPI\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DXShaderManager.cpp">
+      <Filter>DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="DXRenderTarget.cpp">
+      <Filter>DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="DXSamplerState.cpp">
+      <Filter>DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="FMODSound.cpp">
+      <Filter>Sound\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="FMODSoundManager.cpp">
+      <Filter>Sound\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem.cpp">
+      <Filter>ECS\System</Filter>
+    </ClCompile>
+    <ClCompile Include="LightSystem.cpp">
+      <Filter>ECS\System</Filter>
+    </ClCompile>
+    <ClCompile Include="tinystr.cpp">
+      <Filter>Common\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml.cpp">
+      <Filter>Common\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlerror.cpp">
+      <Filter>Common\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlparser.cpp">
+      <Filter>Common\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>ECS\Component\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticMeshComponent.cpp">
+      <Filter>ECS\Component\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshComponent.cpp">
+      <Filter>ECS\Component\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="SkeletalMeshComponent.cpp">
+      <Filter>ECS\Component\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Landscape.cpp">
+      <Filter>ECS\Entity\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>ECS\World\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWorld.cpp">
+      <Filter>ECS\World</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="VS_SkeletalMesh.hlsl">
+      <Filter>DirectX\HLSL\VertexShader</Filter>
+    </FxCompile>
+    <FxCompile Include="VS_StaticMesh.hlsl">
+      <Filter>DirectX\HLSL\VertexShader</Filter>
+    </FxCompile>
+    <FxCompile Include="PS_Default.hlsl">
+      <Filter>DirectX\HLSL\PixelShader</Filter>
+    </FxCompile>
+    <FxCompile Include="PS_Light.hlsl">
+      <Filter>DirectX\HLSL\PixelShader</Filter>
+    </FxCompile>
+    <FxCompile Include="GS_Landscape.hlsl">
+      <Filter>DirectX\HLSL\GeometryShader</Filter>
+    </FxCompile>
+    <FxCompile Include="VS_LandscapeSplatting.hlsl">
+      <Filter>DirectX\HLSL\VertexShader</Filter>
+    </FxCompile>
+    <FxCompile Include="PS_Landscape.hlsl">
+      <Filter>DirectX\HLSL\PixelShader</Filter>
+    </FxCompile>
+    <FxCompile Include="CS_LandscapeSplatting.hlsl">
+      <Filter>DirectX\HLSL\ComputeShader</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

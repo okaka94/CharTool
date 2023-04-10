@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DirectX">
+      <UniqueIdentifier>{9f1538c1-676f-4d23-95bf-cb78658c1724}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{5addd085-31cf-4809-a073-75032ffda994}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WinAPI">
+      <UniqueIdentifier>{3259d443-63df-495d-b5d2-7a2845a8bff4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\Device">
+      <UniqueIdentifier>{acfa9a0b-eb0c-4bd0-9caf-ed8d5f9b1bc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\Sampler">
+      <UniqueIdentifier>{ebadb26f-b693-44fb-9d47-cab68533a660}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\Texture">
+      <UniqueIdentifier>{229e9557-5cc5-4c6e-ade1-4ef46d0d435f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\Manager">
+      <UniqueIdentifier>{a0240e5c-6b9b-438a-8eef-4a721a6d8f74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{4fff46cc-dd70-4dcb-94fd-03164b6f025d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{2a75d0c1-87c2-49ce-9c0d-0d60ad8b56d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IMGUI">
+      <UniqueIdentifier>{29261e86-f24b-474c-9a62-e11c650b62a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FMODSound.hpp">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="FMODSoundManager.hpp">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.hpp">
+      <Filter>WinAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.hpp">
+      <Filter>WinAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsClient.h">
+      <Filter>WinAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="DXDevice.hpp">
+      <Filter>DirectX\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="DXSamplerState.hpp">
+      <Filter>DirectX\Sampler</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTexture.hpp">
+      <Filter>DirectX\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="DXShaderManager.h">
+      <Filter>DirectX\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTextureManager.hpp">
+      <Filter>DirectX\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseCore.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="IMGUI\imconfig.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="IMGUI\imgui.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="IMGUI\imgui_impl_dx11.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="IMGUI\imgui_impl_win32.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="IMGUI\imgui_internal.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="IMGUI\imstb_rectpack.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="IMGUI\imstb_textedit.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="IMGUI\imstb_truetype.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="IMGUI\imfilebrowser.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FMODSound.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="FMODSoundManager.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>WinAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>WinAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsClient.cpp">
+      <Filter>WinAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="DXDevice.cpp">
+      <Filter>DirectX\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="DXSamplerState.cpp">
+      <Filter>DirectX\Sampler</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTexture.cpp">
+      <Filter>DirectX\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="DXShaderManager.cpp">
+      <Filter>DirectX\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTextureManager.cpp">
+      <Filter>DirectX\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseCore.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="IMGUI\imgui.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="IMGUI\imgui_draw.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="IMGUI\imgui_impl_dx11.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="IMGUI\imgui_impl_win32.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="IMGUI\imgui_tables.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="IMGUI\imgui_widgets.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

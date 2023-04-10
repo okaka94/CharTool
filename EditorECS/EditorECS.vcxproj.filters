@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Component">
+      <UniqueIdentifier>{baaa7f5f-f683-4273-83d0-8aa3e00210bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity">
+      <UniqueIdentifier>{89457a74-5c98-4c5d-9ee1-776fb194a355}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{43ea5f54-fed0-4449-b414-d95584e552b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World">
+      <UniqueIdentifier>{922f4e88-8e9b-44df-a54c-d62501b72060}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Mesh">
+      <UniqueIdentifier>{b5468f0c-1fee-4b16-8182-5bc45ca139b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Camera">
+      <UniqueIdentifier>{3016d620-43bf-4887-a9f5-7632d9fd5fda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Light">
+      <UniqueIdentifier>{35246b62-050b-4d9b-b0d5-6f7e6c434d25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Shape">
+      <UniqueIdentifier>{0e89e706-c4ad-4270-b8b9-4ee0c7976d20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\Actor">
+      <UniqueIdentifier>{4f9b693e-4329-4a61-b15b-2b350ab17239}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Landscape">
+      <UniqueIdentifier>{6bb7702c-17e3-428d-ac1c-a0568f06ad13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Animation">
+      <UniqueIdentifier>{f630de5f-b87f-4ee1-9021-fb81d7b412f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Collider">
+      <UniqueIdentifier>{a5a33b31-49b3-4e23-afa0-aff585122ebb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\AnimSystem">
+      <UniqueIdentifier>{3c4d5874-a24c-482c-a0a7-ec0543c79c9c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SkeletalMeshComponent.h">
+      <Filter>Component\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticMeshComponent.h">
+      <Filter>Component\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Component\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="LightComponent.h">
+      <Filter>Component\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeComponent.h">
+      <Filter>Component\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementComponent.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformComponent.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>Entity\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionalLight.h">
+      <Filter>Entity\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Landscape.h">
+      <Filter>Entity\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Entity\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLight.h">
+      <Filter>Entity\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="SpotLight.h">
+      <Filter>Entity\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraSystem.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="LightSystem.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementSystem.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformSystem.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h" />
+    <ClInclude Include="PlaneComponent.h">
+      <Filter>Component\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="LandscapeComponent.h">
+      <Filter>Component\Landscape</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationComponent.h">
+      <Filter>Component\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Entity\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingBoxComponent.h">
+      <Filter>Component\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingSphereComponent.h">
+      <Filter>Component\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderSystem.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateAnimSystem.h">
+      <Filter>System\AnimSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectAnimSystem.h">
+      <Filter>System\AnimSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="LandscapeComponents.h">
+      <Filter>Component\Landscape</Filter>
+    </ClInclude>
+    <ClInclude Include="BVRender.h">
+      <Filter>Component\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraArmComponent.h">
+      <Filter>Component\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketComponent.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SkeletalMeshComponent.cpp">
+      <Filter>Component\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticMeshComponent.cpp">
+      <Filter>Component\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Component\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Landscape.cpp">
+      <Filter>Entity\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="LightSystem.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>Entity\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="MovementSystem.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="MovementComponent.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Entity\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationComponent.cpp">
+      <Filter>Component\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateAnimSystem.cpp">
+      <Filter>System\AnimSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectAnimSystem.cpp">
+      <Filter>System\AnimSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="LandscapeComponent.cpp">
+      <Filter>Component\Landscape</Filter>
+    </ClCompile>
+    <ClCompile Include="LandscapeComponents.cpp">
+      <Filter>Component\Landscape</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraSystem.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderSystem.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraArmComponent.cpp">
+      <Filter>Component\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketComponent.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionalLight.cpp">
+      <Filter>Entity\Actor</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
